@@ -118,19 +118,19 @@ y en la máquina VM2-Ubuntu-Server
 
 ##Las máquinas virtuales.
 
-### VM1-Small-Ubuntu-Server -> Montada en Azure
+#### VM1-Small-Ubuntu-Server -> Montada en Azure
 	SO: Ubuntu Server 12.04LTS,		Kernel: 3.2.0-57-virtual
 	Núcleos del procesador: 1		RAM: 768MB
 
-### VM2-Ubuntu-Server -> Montada en Azure
+#### VM2-Ubuntu-Server -> Montada en Azure
 	SO: Ubuntu Server 12.04LTS,		Kernel: 3.2.0-57-virtual
 	Núcleos del procesador: 1		RAM: 1,75GB
 
-### VM3-CentOS -> Montada en Azure
+#### VM3-CentOS -> Montada en Azure
 	SO: CentOS release 6.3 (Final),	Kernel: Linux centoos 2.6.32-279.14.1.el6.openlogic.x86_64
 	Núcleos del procesador: 1		RAM: 1,75GB
 
-### VM4-Ubuntu-Server -> Montada con VirtualBox 
+#### VM4-Ubuntu-Server -> Montada con VirtualBox 
 	SO: Ubuntu Server 12.04LTS,		Kernel: 3.8.0-29-generic
 	Núcleos del procesador: 1		RAM: 1,75GB
 
@@ -177,7 +177,7 @@ De el análisis de apache hemos destacado los siguientes campos:
 
 Nuestra aplicación es muy ligera, por lo que no es necesario un aumento excesivo de los recursos. Aunque vemos como la máquina virtual VM2 es más rápida que las demás, tambien debemos tener en cuenta que tiene 1GB más de memoria RAM, por lo que el precio de la máquina es mayor, y esto nos hace plantearnos si merece la pena aumentar 1GB de memoria RAM para apenas ganar 8 solicitudes por segundo. Está claro que para nuestra aplicación con la máquina VM1 que cuenta con aproximadamente 700MB de memoria RAM nos es mas que suficiente.
 
-Vemos como la máquina de CentOs aún teniendo 1,7GB de ram es comparable casi a la máquina de Ubuntu Server con 700MB de ram.
+Vemos como la máquina de CentOs aún teniendo 1,7GB de ram es comparable a la máquina de Ubuntu Server con 700MB de ram. Luego para nuestra aplicación no es recomendable.
 
 
 
