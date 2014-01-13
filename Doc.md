@@ -94,6 +94,7 @@ Para comprobar que todo esta bien y php está funcionando podemos crear un peque
 Ahora para comprobar que el servicio apache2 y php están funcionando, y que la máquina virtual está cumpliendo su objetivo que es dar soporte a esta aplicación web accedemos al fichero *info.php* que hemos creado. Para ello debemos obtener la dirección pública que nos da Azure para la VM, la podemos consultar en el panel de control web.
 
 En mi caso la ip pública es 137.117.146.36, luego en el explorador de internet pondremos:
+
 	[http://137.117.146.36/info.php](http://137.117.146.36/index.html)
 
 Una vez comprobado que funciona, vamos a enviar los ficheros de la aplicación a la máquina virtual.
@@ -109,9 +110,11 @@ La aplicación es un índice de los materiales que estamos usando durante la asi
 
 
 La aplicación actualmente se encuentra subida y funcionado en Azure en la máquina VM3-CentOS
+
 	[http://rogeiv-centoos.cloudapp.net](http://rogeiv-centoos.cloudapp.net)
 
 y en la máquina VM2-Ubuntu-Server
+
 	[http://rogeiv.cloudapp.net](http://rogeiv.cloudapp.net/index.php)
 
 ##Las máquinas virtuales.
@@ -150,11 +153,19 @@ De el análisis de apache hemos destacado los siguientes campos:
 
 ![tabla_comparativa](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/tabla_comparativa.jpg)
 
+> Solicitudes por segundo
+
 ![solicitud_segundo](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/solicitud_segundo.jpg)
+
+> Tiempo de respuesta
 
 ![tiempo_respuesta](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/tiempo_respuesta.jpg)
 
+> Velocidad de transferencia
+
 ![velocidad_transferencia](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/velocidad_transferencia.jpg)
+
+> Tiempo por test completo
 
 ![tiempo_test](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/tiempo_test.jpg)
 
