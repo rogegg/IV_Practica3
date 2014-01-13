@@ -110,11 +110,11 @@ La aplicación es un índice de los materiales que estamos usando durante la asi
 
 La aplicación actualmente se encuentra subida y funcionado en Azure en la máquina VM3-CentOS
 
-	[http://rogeiv-centoos.cloudapp.net](http://rogeiv-centoos.cloudapp.net)
+[http://rogeiv-centoos.cloudapp.net](http://rogeiv-centoos.cloudapp.net)
 
 y en la máquina VM2-Ubuntu-Server
 
-	[http://rogeiv.cloudapp.net](http://rogeiv.cloudapp.net/index.php)
+[http://rogeiv.cloudapp.net](http://rogeiv.cloudapp.net/index.php)
 
 ##Las máquinas virtuales.
 
@@ -138,14 +138,17 @@ y en la máquina VM2-Ubuntu-Server
 ##Comparaciones.
 
 Para medir las diferentes máquinas y el tiempo de respuesta de nuestra aplicación hemos usado Apache Benchmark.
+
 	$ ab -n 500 -c 50 <direccion>
 
 
 De el análisis de apache hemos destacado los siguientes campos:
-	- Solicitud por segundo (#/s)
-	- Tiempo de respuesta (ms)
-	- Velocidad de transferencia (Kbytes/sec)
-	- Tiempo total por test (s)
+* Solicitud por segundo (#/s)
+* Tiempo de respuesta (ms)
+* Velocidad de transferencia (Kbytes/sec)
+* Tiempo total por test (s)
+
+
 
 ###Resultados en tabla y diagramas de barras
 
@@ -189,6 +192,6 @@ Vemos como la máquina de CentOs aún teniendo 1,7GB de ram es comparable casi a
 * [http://askubuntu.com](http://askubuntu.com)
 * [http://tuxapuntes.com](http://tuxapuntes.com)
 * [www.rickymills.com](www.rickymills.com)
-* 
+* [Apuntes de la asignatura](http://jj.github.io/IV/)
 
 
