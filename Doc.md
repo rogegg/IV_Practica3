@@ -56,8 +56,7 @@ Una vez conocida la dirección y como la forma de conexión que indicamos fue SS
 
 Nos pedirá la contraseña con la que creamos la VM y se conectará.
 
-¡NOTA! Si hemos cambiado el puerto de conexion puede que tengamos que indicar por qué puerto conectar de la siguiente forma:
-
+>¡NOTA! Si hemos cambiado el puerto de conexion puede que tengamos que indicar por qué puerto conectar de la siguiente forma:
 	$ ssh rogeiv-small.cloudapp.net:5555
 
 
