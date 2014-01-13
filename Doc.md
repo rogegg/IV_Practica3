@@ -34,7 +34,7 @@ Ya en la página4 configuraremos algunos aspectos como el nombre dns, la región
 Una vez hemos seleccionado la configuración que necesitamos, le indicaremos cómo nos vamos a conectar a la máquina virtual:
 ![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure5b.png)
 
-OJO! Como vamos a acceder mas tarde mediante el explorador web, vamos a activar también HTTP.
+> ¡OJO! Como vamos a acceder mas tarde mediante el explorador web, vamos a activar también HTTP.
 
 Le damos a Siguiente y vemos cómo el sistema está creando la máquina virtual.
 ![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure6.png)
@@ -49,12 +49,15 @@ Para conectarnos necesitamos conocer el nombre dns que nos da Azure, para ello v
 ![Azure_vm_dns](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure_dns.png)
 
 Una vez conocida la dirección y como la forma de conexión que indicamos fue SSH, desde un terminal de linux:
+
 	$ ssh rogeiv-small.cloudapp.net
 
 ![Azure_vm_dns](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure_conex.png)
+
 Nos pedirá la contraseña con la que creamos la VM y se conectará.
 
 ¡NOTA! Si hemos cambiado el puerto de conexion puede que tengamos que indicar por qué puerto conectar de la siguiente forma:
+
 	$ ssh rogeiv-small.cloudapp.net:5555
 
 
