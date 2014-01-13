@@ -130,9 +130,6 @@ y en la máquina VM2-Ubuntu-Server
 	SO: CentOS release 6.3 (Final),	Kernel: Linux centoos 2.6.32-279.14.1.el6.openlogic.x86_64
 	Núcleos del procesador: 1		RAM: 1,75GB
 
-#### VM4-Ubuntu-Server -> Montada con VirtualBox 
-	SO: Ubuntu Server 12.04LTS,		Kernel: 3.8.0-29-generic
-	Núcleos del procesador: 1		RAM: 1,75GB
 
 
 ##Comparaciones.
