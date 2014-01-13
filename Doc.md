@@ -72,9 +72,6 @@ Para instalar apache de forma sencilla con apt-get:
 	$ sudo service apache2 start 
 
 
-#####Ya tenemos apache configurado y funcionando.
-
-
 ##2. PHP5
 
 Lo que tendremos que hacer es instalar el paquete de php5:
@@ -97,7 +94,7 @@ Ahora para comprobar que el servicio apache2 y php están funcionando, y que la 
 
 En mi caso la ip pública es 137.117.146.36, luego en el explorador de internet pondremos:
 
-	[http://137.117.146.36/info.php](http://137.117.146.36/index.html)
+[http://137.117.146.36/info.php](http://137.117.146.36/index.html)
 
 Una vez comprobado que funciona, vamos a enviar los ficheros de la aplicación a la máquina virtual.
 
