@@ -171,9 +171,13 @@ De el análisis de apache hemos destacado los siguientes campos:
 
 ![tiempo_test](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/tiempo_test.jpg)
 
+
+
 ##Conclusión
 
 Nuestra aplicación es muy ligera, por lo que no es necesario un aumento excesivo de los recursos. Aunque vemos como la máquina virtual VM2 es más rápida que las demás, tambien debemos tener en cuenta que tiene 1GB más de memoria RAM, por lo que el precio de la máquina es mayor, y esto nos hace plantearnos si merece la pena aumentar 1GB de memoria RAM para apenas ganar 8 solicitudes por segundo. Está claro que para nuestra aplicación con la máquina VM1 que cuenta con aproximadamente 700MB de memoria RAM nos es mas que suficiente.
+
+Vemos como la máquina de CentOs aún teniendo 1,7GB de ram es comparable casi a la máquina de Ubuntu Server con 700MB de ram.
 
 
 
