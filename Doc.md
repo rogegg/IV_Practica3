@@ -11,15 +11,19 @@ Accedemos al panel de control web que Azure nos proporciona
 	[https://manage.windowsazure.com/](https://manage.windowsazure.com/)
 
 En la parte inferior izquierda (flecha roja) hacemos Click en Nuevo:
-![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure1.png)
+
+![Creando MV Azure](https://raw2.github.com/rogegg/IV_Practica3/master/imagenes/azure1.png)
 
 Vamos a crear una máquina virtual por lo que seleccionamos *Proceso>Máquina Virtual>De la galería*:
+
 ![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure2.png)
 
 Ahora seleccionamos un sistema operativo, en este caso Ubuntu Server 12.04LTS y siguiente:
+
 ![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure3.png)
 
 Ahora daremos un nombre a nuestra máquina virtual y al usuario, además podremos seleccionar los núcleos de la misma y cargar una clave ssh o proporcionar una contraseña para conectarnos a la VM.
+
 ![Creando MV Azure](https://raw.github.com/rogegg/IV_Practica3/master/imagenes/azure4.png)
 
 
